@@ -1,5 +1,5 @@
 {
-  "name": "16.react-router-p2",
+  "name": "18.context-api",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,7 +13,6 @@
     "@tailwindcss/vite": "^4.2.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "react-router-dom": "^7.13.0",
     "tailwindcss": "^4.2.0"
   },
   "devDependencies": {
