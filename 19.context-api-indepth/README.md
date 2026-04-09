@@ -1,0 +1,7 @@
+- Create a react app using 'npm create vite'
+- Create multiple components inside component folder
+- Create a context folder and create ThemeContext.jsx (for eg.) inside the context folder.
+- And inside the main.jsx, Wrap the App with this ThemeContext
+- This makes ThemeContext.jsx as a parent and App.jsx as a child of it.
+- Inside this ThemeContext.jsx, we can render this App.jsx items by returning 'props.children' and by passing the (props) as value in ThemeContext Funtion.
+- Now we will store data in ThemeContext.jsx
