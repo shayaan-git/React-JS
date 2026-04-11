@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #141413;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home h2 {
+  font-size: 100px;
+  white-space: nowrap;
+}
+
+.home button {
+  font-size: 25px;
+  border: none;
+  border: 2px solid white;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #171717;
+  color: snow;
+}
+
+.home button:active {
+  scale: 0.95;
+}
+
+.all-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Replaced anchor tag in react */
+.product {
+  display: block;
+  padding: 8px;
+  background-color: #171717;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  color: cadetblue;
+}
+
+.product img {
+  height: 200px;
+  object-fit: contain;
+  width: 100%;
+}
+
+.product h2 {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.single-prod {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.single-prod img {
+  height: 600px;
+  object-fit: contain;
+}
+
+.single-prod span {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 30px;
+}
+
+.single-prod h5 {
+  font-size: 40px;
+}
+
+.nav-back {
+  display: flex;
+  padding-top: 10px;
+  padding-right: 10px;
+  font-size: larger;
+  font-weight: 600;
+  color: snow;
+  text-decoration: none;
+  width: fit-content;
+  margin-left: auto;
+}
+
+.navbar-area {
+  display: flex;
+  width: fit-content;
+  margin-left: auto;
+  gap: 20px;
+}
